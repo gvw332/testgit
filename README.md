@@ -12,3 +12,17 @@ Imaginons nous modifions la section de la branche (navigation) et on veut le pus
 2: git commit -m "commentaire"
 3: git push -u origin main
 --------------------------------------------------------------------------------------------------------------
+<<<<<<< HEAD
+=======
+
+
+Pour récupérer la branche créée par un autre collaborateur :
+git pull origin nomdelabranche
+
+Puis pour publier le commit en local :
+git push
+
+Puis pour le fusionner sur la branche main :
+git merge logo
+
+>>>>>>> 3aefeaaf0aad52ffad925fab8f1c6ab36108f27e
